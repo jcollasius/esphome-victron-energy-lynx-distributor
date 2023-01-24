@@ -1,6 +1,11 @@
+#pragma once
+
 #include "esphome.h"
 #include "Wire.h"
 
+namespace esphome {
+namespace empty_component {
+  
 class VELynxDistributor : public PollingComponent {
   public:
     BinarySensor *bus_bar = new BinarySensor();
@@ -36,3 +41,6 @@ class VELynxDistributor : public PollingComponent {
     }      
   }
 };
+
+}  // namespace empty_component
+}  // namespace esphome
