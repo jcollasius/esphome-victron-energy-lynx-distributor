@@ -4,7 +4,7 @@
 #include "Wire.h"
 
 namespace esphome {
-namespace empty_component {
+namespace ve_lynx_distributor {
   
 class VELynxDistributor : public PollingComponent {
   public:
@@ -42,5 +42,5 @@ class VELynxDistributor : public PollingComponent {
   }
 };
 
-}  // namespace empty_component
+}  // namespace ve_lynx_distributor
 }  // namespace esphome
